@@ -1,0 +1,342 @@
+body {
+    /*font-family: 'Courier New', Courier, monospace;*/
+    margin: 0; 
+    font-family: Sans-serif;*/
+ }
+             /* MENU DE NAVIGATION 1 */
+ nav {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #1a6ba6;
+     color: #fff;
+     padding: 0 30px;
+ }
+ a {
+     text-decoration: none;
+ }
+ nav .navigation-left ul {
+     display: flex;
+     list-style-type: none;
+     padding: 0;
+ }
+ nav .navigation-left ul li {
+     margin-left: 40px;
+ }
+ nav .navigation-left ul li .entete {
+    margin-right: 10px;
+ }
+ nav .navigation-left ul li .entete #icon {
+    font-size: 20px;
+    color: #fff;
+ }
+ nav .navigation-left ul #element-entete1 {
+    margin-left: 0px;
+ }
+ nav ul {
+     display: flex;
+     list-style-type: none;
+     color: #d5e4ec;
+ }
+ nav ul li {
+     margin-left: 30px;
+ }
+ nav .Liste-entete1 #liste {
+     padding: 0 15px;
+     border-right: 1px solid #fff;
+ }
+ nav .navigation-left .Liste-entete1 .entete .element-entete {
+     margin-left: 12px;
+ }
+                 /* MENU DE NAVIGATION 2 */
+ .Navigation-2 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 30px;
+     height: 80px;
+     background-color: #fff;
+ }
+ #Nom-image {
+     margin: 0;
+     padding: 0;
+ }
+ #Nom-image img .titre {
+     width: 150px;
+     height: 30px;
+ }
+ section ul {
+     display: flex;
+     list-style-type: none;
+ }
+ section ul li {
+     margin-right: 50px;
+ }
+ section ul li a {
+     color: #9e9e9e;
+ }
+ section ul li a .fa-thin fa-plus {
+     color: #9e9e9e;
+     margin-right: 50px;
+     height: 10px;
+     width: 12px;
+ }
+ .autre {
+     margin-right: 20px;
+ }
+ .autre .numero {
+     color: #1a6ba6;
+     margin-right: 20px;
+     padding: 0;
+ }
+ .autre .fa-sharp fa-light fa-phone-volume {
+     color: #1a6ba6;
+     margin-right: 10px;
+ }
+ .autre a button {
+     background-color: #1a6ba6;
+     color: #fff;
+     text-transform: uppercase;
+     cursor: pointer;
+     padding: 15px;
+     font-size: 14px;
+     text-align: center;
+     border-radius: 35px;
+     width: 160px;
+     border: none;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ /*-------------------------------MENU PRINCIPALE-----------------------------------*/
+ 
+ #main-image {
+     display: flex;
+     flex-wrap: wrap;
+     height: 550px;
+     background: url('image Styles2/stressed-young-programmer-or-software-developer-having-the-problems-with-code-bug-and-some-error.jpg') center;
+     background-size: 100%;
+     background-size: cover;
+     overflow: hidden;
+     max-width: 100%;
+     align-items: center;
+     color: #fff;
+     padding: 0 25px;
+     justify-content: space-between;
+ }
+ #main-image .left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+ }
+ #main-image .left .text-image .text-image1 {
+    margin-bottom: 20px;
+ }
+ #main-image .left .text-image .text-image1 p {
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 15px;
+ }
+ #main-image .left h2 {
+     font-weight: bold;
+     font-size: 55px;
+     margin: 0;
+ }
+ #main-image h1 {
+    font-weight: bold;
+     font-size: 250px;
+     margin: 0;
+ }
+ #main-image .left .orange {
+     color: #fbbc43;
+ }
+ #main-image .left .button-image {
+    max-height: 100%;
+    width: 450px;
+    height: 50px;
+ }
+ #main-image .left .button-image a {
+    padding: 16px 35px;
+    height: 50px;
+    background: #2796ff;
+    border-radius: 30px;
+    margin: 20px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+ }
+ #main-image .left .button-image .button-image1 .button-image2 {
+    text-transform: uppercase;
+    color: #fff;
+ }
+ /*--------------------------------------FOOTER-------------------------------------*/
+.footer {
+    height: 430px;
+    background-color: #006BA6;
+    padding: 100px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+}
+.footer .left {
+    max-width: 280px;
+    padding: 10px;
+    margin: 0px;
+    margin: 0% 5% 0% 0%;
+    display: flex;
+    flex-direction: column;
+}
+.footer .left .image-orange {
+    margin-bottom: 10px;
+}
+.footer .left .image-orange img {
+    height: 25px;
+    width: 140px;
+    max-width: 100%;
+}
+.footer .left .input {
+    width: 279px;
+    height: 60px;
+    padding: 10px;
+}
+.footer .left .input input {
+    max-width: 100%;
+    height: 100%;
+    width: 258px;
+    height: 59px;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 17px;
+    border-radius: 40px;
+    border-color: #fff;
+}
+.footer .left .boutton-footer {
+    width: 279px;
+    max-width: 100%;
+    height: 51px;
+    padding: 10px;
+}
+.footer .left button {
+    max-width: 100%;
+    height: 100%;
+    width: 268px;
+    height: 51px;
+    padding: 17px 37px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fbbc43;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+/*----------------------------LES LISTES-------------------------------*/
+/*----------------------------LISTES 1---------------------------------*/
+.footer .liste1 {
+    margin: 0% 0% 0% 10%;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .liste1 ul {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.footer .liste1 ul li {
+    margin: 0;
+    display: flex;
+    padding: 7.5px 7.5px 7.5px 0;
+    font-size: 17px;
+}
+.footer .liste1 ul li i {
+    padding: 0 15px 0 0;
+}
+h4 {
+    margin: 0;
+    font-size: 25px;
+}
+.footer .liste1 ul li a {
+    color: #fff;
+}
+/*-------------------------LISTES 2--------------------------------*/
+.footer .liste2 {
+    margin: 0% 0% 0% 7%;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .liste2 ul {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.footer .liste2 ul li {
+    margin: 0;
+    display: flex;
+    padding: 7.5px 7.5px 7.5px 0;
+    font-size: 17px;
+}
+.footer .liste2 ul li i {
+    padding: 0 15px 0 0;
+}
+.footer .liste2 ul li a {
+    color: #fff;
+}
+/*-------------------------LISTES 3--------------------------------*/
+.footer .liste3 {
+    margin: 0% 0% 0% 5.5%;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .liste3 ul {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.footer .liste3 ul li {
+    margin: 0;
+    display: flex;
+    padding: 7.5px 7.5px 7.5px 0;
+    font-size: 17px;
+}
+.footer .liste3 ul li i {
+    padding: 0 15px 0 0;
+}
+.footer .liste3 ul li a {
+    color: #fff;
+}
+/*---------------------------LE BAS DE LA PAGE---------------------*/
+.footer .bas {
+    margin: 60px 0px 0px;
+    padding: 30px 0px 0px;
+}
+.footer .bas .espace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .bas .espace .texte-bas {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer .bas .espace .les-logo .logo {
+    margin: 0;
+    margin-left: 674px;
+}
+.footer .bas .espace .les-logo .logo #logos {
+    background: #2796ff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.footer .bas .espace .les-logo .logo #logos i {
+    color: #fff;
+}
